@@ -1,6 +1,7 @@
 # ReLU-Tune
 
 [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Model-fcd022?logo=huggingface&logoColor=000)](https://huggingface.co/bishmoy/Llama-3.1-8B-ReLU)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BishmoyPaul/ReLU-Tune/blob/main/ReLU_Tune_train.ipynb)
 
 ReLU-Tune is a lightweight toolkit for fine-tuning and evaluating ReLU-activated language models. It provides a simple, config-driven workflow for full or partial ReLU-fication, staged LoRA training, model evaluation, and activation sparsity measurement.
 
@@ -19,6 +20,14 @@ A public reference model produced with ReLU-Tune is available on Hugging Face:
 - [`bishmoy/Llama-3.1-8B-ReLU`](https://huggingface.co/bishmoy/Llama-3.1-8B-ReLU)
 
 This release is a full ReLU-fied Llama 3.1 8B model exported as a merged checkpoint for straightforward loading and evaluation.
+
+## Notebook
+
+A public Colab notebook is included for a simple end-to-end run:
+
+- [`ReLU_Tune_train.ipynb`](ReLU_Tune_train.ipynb)
+
+The notebook defaults to `configs/train_llama32_1b_debug.yaml` so new users can learn the workflow quickly before switching to the full 1B or 8B training presets.
 
 ## Quick Start
 
